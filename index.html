@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="main.js" type="text/javascript"></script>
+        <title>Langding page</title>
+    </head>
+    <body>
+        <section class="header">
+            <div>
+                <img class="header__logo" src="images/logo.svg"/>
+                <a class="header__nav text__common text--milk" href="#">Products</a>
+                <a class="header__nav text__common text--milk" href="#">About Us</a>
+            </div>
+            <input id="input_search" class="header__search" type="text" placeholder="Search" oninput="onChange(this.value)"/>
+        </section>
+        <section class="main">
+            <div class="main__hero">
+                <div class="main__hero__info__box">
+                    <div>
+                        <h1 class="text--yellow main__hero__title">HOBS</h1>
+                        <h3 class="text--yellow main__hero__description">ACCESSORIES & SPARE PARTS</h3>
+                    </div>
+                    <button class="button--yellow text__common text--light main__hero__button">READ MORE</button>
+                </div>
+            </div>
+            <h1 class="text--light main__content__title">HOBS</h1>
+            <div id="main__content"></div>
+        </section>
+        <section class="footer">
+            <div class="footer__divider"></div>
+            <h5 class="text--milk footer__copyright__text">©2018 Niteco Viet Nam</h5>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "image": "images/hob1.png",
+    "title": "PLACA DE INDUCCIÓN DE 36 CM",
+    "description": "For the ultimate level of flexibility, the zones on this induction hob adapt automatically to your cookware - ensuring even cooking results whatever the pan's size or position",
+    "characters": ["MaxiSense Pure Technology", "DirekTouch Controls"],
+    "price": "6.305.000 VND"
+  },
+  {
+    "image": "images/hob2.png",
+    "title": "60CM PURE 4 ZONE INDUCTION COOKTOP",
+    "description": "Preparing many dishes at the same time or cooking for a dinner party? This hob is made for those occasions when you need more options, with equally tasty results. It's FlexiBridge feature means you can customize your own cooking area, combining up to  4 segments with a consistent and even heat distribution.",
+    "characters": [
+      "Residual Heat Indicator",
+      "Automax Function",
+      "Power Slide"
+    ],
+    "price": "6.800.000 VND"
+  },
+  {
+    "image": "images/hob3.png",
+    "title": "80CM FREEZONE&#8482; INDUCTION COOKTOP",
+    "description": "Get the very best taste and texture when frying, every single time. To start, just select the food and desired result. No more guessing when the pan or oil is at the right temperature. No more heat adjustments. With the SenseFry© induction hob, great flavour is guaranteed",
+    "characters": ["SenseFry"],
+    "price": "6.305.000 VND"
+  }
+]

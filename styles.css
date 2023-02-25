@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Metric;
+    src: url(font/MetricWeb-Regular.woff); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #DEC117;
+    --white: #FFFFFF;
+    --milk: #C3C4C7;
+    --black: #000000;
+    --dark-grey: #21201E;
+    --f-14: 14px;
+    --f-17: 17px;
+    --f-18: 18px;
+    --f-20: 20px;
+    --f-24: 24px;
+    --f-48: 48px;
+}
+
+h1 {
+    margin: 0;
+    font-size: var(--f-48);
+}
+
+h3 {
+    margin: 0;
+    font-size: var(--f-20);
+}
+
+h4 {
+    margin: 0;
+    font-size: var(--f-18);
+}
+
+h6 {
+    margin: 0;
+    font-size: var(--f-14);
+}
+
+.font__common {
+    font-weight: 300;
+}
+
+.text--light {
+    color: var(--white);
+}
+
+.text--milk {
+    color: var(--milk);
+}
+
+.text--yellow {
+    color: var(--yellow);
+}
+
+body {
+    min-height: 100vh;
+    font-family: Metric;
+    margin: 0;
+    background-color: var(--dark-grey);
+}
+
+.header {
+    box-sizing: border-box;
+    background-color: var(--black);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__search {
+    padding: 10px;
+    border: 1px solid var(--milk);
+    border-radius: 20px;
+    background: none;
+    color: var(--white);
+}
+
+.header__logo {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
+
+.header__nav {
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: var(--f-17);
+}
+
+.header__search {
+
+}
+
+.main__hero {
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(images/herohob.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    /* display: flex;
+    align-items: center; */
+}
+
+.main__hero__info__box {
+    box-sizing: border-box;
+    background-color: var(--black);
+    max-width: 500px;
+    height: 350px;
+    width: 300px;
+    padding: 30px 40px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: width 0.2s;
+}
+
+@media only screen and (min-width: 600px) {
+    .main__hero__info__box {
+        width: 500px;
+        transition: width 0.2s;
+    }
+}
+
+.main__hero__title {
+    margin-bottom: 20px;
+}
+
+.main__hero__button {
+    font-size: var(--f-20);
+    width: 220px;
+}
+
+#main__content {
+    box-sizing: border-box;
+    padding: 40px 5%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.main__content__title {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.main__content__item__title {
+    text-align: center;
+    font-size: var(--f-24);
+    max-width: 320px;
+    margin: 30px auto 60px;
+}
+
+.main__content__item__description {
+    font-size: var(--f-18);
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.main__content__item__character {
+    font-size: var(--f-18);
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.main__content__item {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__content__item > div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__content__item > div .main__content__item__image {
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.main__content__item__rotate {
+    transform: rotate(90deg);
+}
+
+.main__content__item__button {
+    margin-top: 20px;
+    font-size: var(--f-18);
+}
+
+.button--yellow {
+    background-color: var(--yellow);
+    min-width: 200px;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none
+}
+
+.footer {
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 0 5%;
+}
+
+.footer__divider {
+    box-sizing: border-box;
+    border: 1px solid rgb(51, 51, 51);
+    filter: drop-shadow(0 2px 2px #161616);
+}
+
+.footer__copyright__text {
+    text-align: center;
+}
